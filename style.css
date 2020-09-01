@@ -70,10 +70,14 @@ nav{
  display: none;
 }
 .active a, .menu li a:hover{
- background-color:#011412;
+ background-color:#000000;
  color:#FFF!important;
  font-weight: bold;
  transition: all ease 0.4s;
+}
+.active{
+  /* display: flex;
+  justify-self: space-around; */
 }
 .name{
   background-color: rgba(0, 0, 0, 0.287);
@@ -289,12 +293,13 @@ nav{
    .s-box:hover{
     transform:translateY(-10px);
     transition: all ease 0.3s;
+    box-shadow: 12px 12px 12px rgba(204, 251, 251, 0.1);
     
    }
    .p-box:hover{
     transform:translateY(-10px);
     transition: all ease 0.3s;
-    
+    box-shadow: 2px 2px 12px rgba(204, 251, 251, 0.1);
    }
    .overlay-text{
     font-family: calibri;
